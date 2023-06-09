@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kristiyan Panayotis</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #e0e0e0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        margin: 0 auto;
+        padding: 20px;
+        max-width: 1200px;
+      }
+
+      .profile-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+
+      h2 {
+        color: #222;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      .info-container {
+        display: flex;
+        justify-content: center;
+        width: 800px;
+        gap: 10px;
+      }
+
+      .personal-info,
+      .contact-info {
+        background-color: #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 45%;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .about-me {
+        background-color: #d9d9d9;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+        width: 80%;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        text-align: left;
+      }
+
+      .about-me p {
+        text-indent: 20px;
+      }
+
+      .personal-info ul,
+      .contact-info ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .contact-info p,
+      .about-me p,
+      .personal-info p {
+        margin: 2px 0;
+        color: #555;
+      }
+
+      .personal-info ul li {
+        font-style: italic;
+        margin: 2px 0;
+      }
+
+      .contact-info ul li {
+        font-family: 'Courier New', monospace;
+        margin: 8px 0;
+      }
+
+      .social-media {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+        margin-top: 20px;
+      }
+
+      .social-media a {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #ccc;
+        color: #333;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.2s ease;
+      }
+
+      .social-media a:hover {
+        background-color: #bbb;
+        color: #0084b4;
+      }
+
+      .flag-icon {
+        width: 50px;
+        border-radius: 5px;
+        margin: 5px;
+      }
+
+      .alias-text {
+        font-family: 'Courier New', monospace;
+        background-color: #f0f0f0;
+        padding: 1px 5px;
+        border-radius: 3px;
+        color: #333;
+      }
+
+      .phone-link {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #0084b4;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.2s ease;
+      }
+
+      .phone-link:hover {
+        background-color: #005b7e;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <img class="profile-image" src="https://art.pixilart.com/21948533a790c58.png" alt="Avatar">
+      <h2>Kristian Panayotis</h2>
+      <div class="info-container">
+        <section class="personal-info">
+          <ul>
+            <li>Kristian Panayotis Yanis</li>
+            <li>Kristiyan Panayotis</li>
+            <li>Kristian Panayotis</li>
+            <li>Kristiyan Yanis</li>
+          </ul>
+          <p>
+            <strong>Pronouns:</strong> he/hacker
+          </p>
+          <img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Flag_of_Bulgaria.png/800px-Flag_of_Bulgaria.png" alt="Bulgarian flag">
+          <img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/LGBT_Rainbow_Flag.png/800px-LGBT_Rainbow_Flag.png?20160110223336" alt="Gay Pride flag">
+        </section>
+        <section class="contact-info">
+          <ul>
+            <li>yipman_banjo@icloud.com</li>
+            <li>kristianpanayotis7@gmail.com</li>
+            <li>kristianbg17@gmail.com</li>
+            <li>panayotiskristian0@gmail.com</li>
+            <li>kriskataweebg17@gmail.com</li>
+          </ul>
+          <p>
+            <a class="phone-link" href="tel:+359895884175">+359 89 588 4175</a>
+          </p>
+        </section>
+      </div>
+      <section class="about-me">
+        <p>I am a genius hacker currently living in Bulgaria. I have previously lived in Cyprus. I can speak Bulgarian and English. My hours are very flexible, as I do not currently have school or a job.</p>
+        <p>You may know me online as <span class="alias-text">Gemini</span>, <span class="alias-text">ryemelon</span>, or another name. I have gone by many names. Sometimes, I even assume the names of people I've "dealt with."</p>
+        <p>I am available to work freelance jobs of all sorts. Some of my exploits include Clash of Clans (ask The Clashers about me), Discord, Crisp (greetings to Baptiste Jamin), and more.</p>
+        <p>Many competing freelancers have attempted to report my portfolio website as fraudulent. It is not. Please do not act upon any request to censor my information, otherwise you may be harming my well-being.</p>
+      </section>
+      <nav class="social-media">
+        <a href="https://www.facebook.com/kristian.panayotis" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/kristian.panayotis/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.tiktok.com/@kristian_panayotis" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://www.pinterest.com/kriskataweebg17/" target="_blank" rel="noopener">Pinterest</a>
+        <a href="https://twitter.com/ymanban" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://www.reddit.com/user/yipman_banjo/" target="_blank" rel="noopener">Reddit</a>
+        <a href="https://www.quora.com/profile/Kristiyan-Panagiotis-Giannis-1" target="_blank" rel="noopener">Quora</a>
+        <a href="https://www.fiverr.com/yipman_banjo" target="_blank" rel="noopener">Fiverr</a>
+      </nav>
+    </main>
+  </body>
+</html>
